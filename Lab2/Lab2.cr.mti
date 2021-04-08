@@ -1,0 +1,57 @@
+/nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/root.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/root.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_if.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_if.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling interface apb_if
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv {0 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(98): Field/method name (addr) not in 'tr'
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(103): A default clocking block must be specified to use the ##n timing statement.
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(106): A default clocking block must be specified to use the ##n timing statement.
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(139): Field/method name (addr) not in 'tr'
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(121): Field/method name (addr) not in 'tr'
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(127): A default clocking block must be specified to use the ##n timing statement.
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(130): A default clocking block must be specified to use the ##n timing statement.
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(154): Field/method name (addr) not in 'tr'
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(87): A default clocking block must be specified to use the ##n timing statement.
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_master.sv(76): A default clocking block must be specified to use the ##n timing statement.
+
+} {3.0 13.0} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv {0 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling program test
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv(21): Cannot find `include file "apb_trans.sv" in directories:
+    /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv(22): Cannot find `include file "apb_if.sv" in directories:
+    /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv(23): Cannot find `include file "apb_master.sv" in directories:
+    /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/tests/test.sv(24): Cannot find `include file "apb_gen.sv" in directories:
+    /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /nfs/sw_cmc/x86_64.EL7/tools/mentor.2011/questasim_10.1/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/top.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/top.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/mem.sv {0 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/mem.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling module mem
+** Error: /nfs/home/p/ph_e/Questa/Labs/Lab2/hdl/mem.sv(26): near "memory_read": syntax error, unexpected IDENTIFIER, expecting ';' or '('
+
+} {4.0 5.0} {}} /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_gen.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab2/apb_env/apb_gen.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+
+Top level modules:
+	--none--
+
+} {} {}}

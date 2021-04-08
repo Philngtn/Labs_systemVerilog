@@ -1,0 +1,112 @@
+# //  Questa Sim-64
+# //  Version 10.1e linux_x86_64 Jun 11 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Lab1
+vsim top
+# vsim top 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.top.
+# Optimization failed
+# Error loading design
+vsim arb_top
+# vsim arb_top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.arb_top(fast)
+# Loading work.arb(fast)
+# Loading work.test(fast)
+quit -sim
+# Compile of top.sv was successful.
+# Compile of test.sv failed with 1 errors.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of top.sv was successful.
+# Compile of test.sv failed with 1 errors.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of top.sv was successful.
+# Compile of test.sv was successful.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim arb_top
+# vsim arb_top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.arb_top(fast)
+# Loading work.arb(fast)
+# Loading work.test(fast)
+add wave sim:/arb_top/*
+add wave sim:/arb_top/arbif/*
+run
+# Task reset_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+run
+# ** Error: Assertion error.
+#    Time: 505 ns  Scope: arb_top.t1.request_grant_test.a4 File: /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv Line: 41
+run
+# ** Note: $finish    : /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv(53)
+#    Time: 605 ns  Iteration: 1  Instance: /arb_top/t1
+# 1
+# Break at /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv line 53
+# Compile of arb_if.sv was successful.
+# Compile of top.sv was successful.
+# Compile of test.sv was successful.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 0 failed with no errors. 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.arb_top(fast)
+# Loading work.arb(fast)
+# Loading work.test(fast)
+run
+# Task reset_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+# Compile of top.sv was successful.
+# Compile of test.sv was successful.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 0 failed with no errors. 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.arb_top(fast)
+# Loading work.arb(fast)
+# Loading work.test(fast)
+run
+# Task reset_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+# Task request_grant_test: asserting and checking reset
+run
+run
+# ** Error: Assertion error.
+#    Time: 515 ns  Scope: arb_top.t1.request_grant_test.a4 File: /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv Line: 42
+# Compile of top.sv was successful.
+# Compile of test.sv was successful.
+# Compile of arb.sv was successful.
+# Compile of arb_if.sv was successful.
+# 4 compiles, 0 failed with no errors. 
+quit -sim
+quit

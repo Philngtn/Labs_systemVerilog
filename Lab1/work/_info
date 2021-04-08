@@ -1,0 +1,97 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/p/ph_e/Questa/Labs/Lab1
+T_opt
+Z1 V161016g:9_`WTNfkIe;_02
+Z2 04 7 4 work arb_top fast 0
+Z3 =3-308d996205c8-60660105-3986b-657c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.1e;51
+Z7 d/home/p/ph_e/Questa/Labs/Lab1
+varb
+Z8 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z9 !s100 84l^1DO@3Efj6S;TU2T?21
+Z10 IUgA<<07DKHd^A619FlcIZ1
+Z11 VH<?lXF4I><;g8V`NVYo>O2
+Z12 !s105 arb_sv_unit
+S1
+R7
+Z13 w1459363589
+Z14 8/nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv
+Z15 F/nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv
+L0 9
+Z16 OL;L;10.1e;51
+r1
+31
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|/nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv|
+Z18 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+Z19 !s108 1617297888.544602
+Z20 !s107 /nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv|
+Yarb_if
+R8
+!i10b 1
+Z21 !s100 mC>Hl8K4L@d0O90]]QB310
+Z22 IlTX8Jlnf03[Cm?6j0<g=:3
+Z23 VKH2FN:`lfFk7eUE?UOz:E0
+Z24 !s105 arb_if_sv_unit
+S1
+R7
+Z25 w1617296147
+Z26 8/nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv
+Z27 F/nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv
+L0 1
+R16
+r1
+!s85 0
+31
+!s108 1617297888.810897
+!s107 /nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv|
+Z28 !s90 -reportprogress|300|-work|work|-vopt|-sv|/nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv|
+R18
+varb_top
+R8
+Z29 !s100 [Yc>2f88JGWz9fAfB_:k40
+Z30 Ij]=IlZI]aV7JidMDDj_DE2
+Z31 V5efhBb3L92GGQKRWDK^DF1
+Z32 !s105 top_sv_unit
+S1
+R7
+Z33 w1617296654
+Z34 8/nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv
+Z35 F/nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv
+L0 3
+R16
+r1
+31
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-sv|/nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv|
+R18
+Z37 !s108 1617297888.237070
+Z38 !s107 /nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv|
+!i10b 1
+!s85 0
+4test
+R8
+Z39 I[i1ge2ZQTfUUN<acF3b>N1
+Z40 Vk<3<[f=78GX=_HO53D;7>3
+Z41 !s105 test_sv_unit
+S1
+R7
+Z42 w1617297789
+Z43 8/nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv
+Z44 F/nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv
+L0 3
+R16
+r1
+31
+Z45 !s90 -reportprogress|300|-work|work|-vopt|-sv|/nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv|
+R18
+Z46 !s100 1E@Q9CK1YNjYL]N9l`S6[2
+Z47 !s108 1617297888.361601
+Z48 !s107 /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv|
+!i10b 1
+!s85 0

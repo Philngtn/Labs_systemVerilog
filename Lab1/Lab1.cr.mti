@@ -1,0 +1,29 @@
+/nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab1/test.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling program test
+
+Top level modules:
+	test
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab1/arb.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling module arb
+
+Top level modules:
+	arb
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab1/arb_if.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling interface arb_if
+
+Top level modules:
+	--none--
+
+} {} {}} /nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv {1 {vlog -work work -vopt -sv /nfs/home/p/ph_e/Questa/Labs/Lab1/top.sv
+QuestaSim-64 vlog 10.1e Compiler 2013.06 Jun 11 2013
+-- Compiling module arb_top
+
+Top level modules:
+	arb_top
+
+} {} {}}
